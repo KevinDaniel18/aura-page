@@ -1,0 +1,7 @@
+.linkHover {
+  transition: background-color 0.2s;
+}
+
+.linkHover:hover {
+  background-color: var(--accent-color);
+}
