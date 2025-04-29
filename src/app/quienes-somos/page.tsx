@@ -3,8 +3,6 @@ import {
   background,
   secondary,
   textPrimary,
-  textSecondary,
-  accent,
 } from "../../../constants/colors";
 
 export default function QuienesSomos() {
