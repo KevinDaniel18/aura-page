@@ -10,9 +10,10 @@ import {
   textSecondary, // Gris medio
   accent, // Verde suave
 } from "../../../constants/colors";
-import Lottie from "lottie-react";
 import heroAnimation from "../../../public/animations/helping-hands.json";
 import { ArrowRight } from "lucide-react";
+import dynamic from "next/dynamic";
+const LottieAnimation = dynamic(() => import("lottie-react"), { ssr: false });
 
 export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +30,7 @@ export default function HeroSection() {
       {/* Fondo con animación Lottie */}
       <div className="absolute inset-0 z-0">
         <div className="relative h-full w-full">
-          <Lottie
+          <LottieAnimation
             animationData={heroAnimation}
             loop={false}
             autoPlay
