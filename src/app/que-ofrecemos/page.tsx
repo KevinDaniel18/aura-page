@@ -36,22 +36,22 @@ export default function QueOfrecemos() {
 
   return (
     <section className=" bg-background">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
-          <div style={{ background: secondary, padding: 20 }}>
-            <h1
-              className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl"
-              style={{ color: background }}
-            >
-              Qué Ofrecemos
-            </h1>
-            <div
-              className="mx-auto mt-4 h-1 w-24 rounded"
-              style={{ backgroundColor: primary }}
-            ></div>
-          </div>
+      <div className="text-center mb-12">
+        <div style={{ background: secondary, padding: 20 }}>
+          <h1
+            className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl"
+            style={{ color: background }}
+          >
+            Qué Ofrecemos
+          </h1>
+          <div
+            className="mx-auto mt-4 h-1 w-24 rounded"
+            style={{ backgroundColor: primary }}
+          ></div>
         </div>
+      </div>
 
+      <div className="max-w-6xl mx-auto">
         <div className="mb-12" style={{ padding: 20 }}>
           <p
             className="text-lg text-textPrimary max-w-3xl mx-auto"
@@ -63,10 +63,7 @@ export default function QueOfrecemos() {
           </p>
         </div>
 
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 py-16 px-4"
-          style={{ background }}
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 py-16 px-4">
           {services.map((service, index) => (
             <div
               key={index}

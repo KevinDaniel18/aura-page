@@ -7,10 +7,7 @@ import {
 
 export default function QuienesSomos() {
   return (
-    <main
-      style={{ backgroundColor: background }}
-      className="min-h-screen pb-16"
-    >
+    <main className="min-h-screen pb-16">
       <div className="text-center mb-12">
         <div style={{ background: secondary, padding: 20 }}>
           <h1
