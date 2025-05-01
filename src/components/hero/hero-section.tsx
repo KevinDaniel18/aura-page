@@ -106,7 +106,7 @@ export default function HeroSection() {
               Contáctanos
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
-            <Link
+            {/* <Link
               href="/recursos"
               className="inline-flex items-center rounded-md border-2 px-6 py-3 text-base font-medium transition-colors hover:bg-white/10"
               style={{
@@ -116,7 +116,7 @@ export default function HeroSection() {
               }}
             >
               Explorar recursos
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
