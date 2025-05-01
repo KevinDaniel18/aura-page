@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 w-full border-b shadow-sm"
+      className="fixed top-0 z-50 w-full border-b shadow-sm"
       style={{ backgroundColor: "#FFFBF0" }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

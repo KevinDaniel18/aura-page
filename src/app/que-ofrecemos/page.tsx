@@ -35,20 +35,11 @@ export default function QueOfrecemos() {
   ];
 
   return (
-    <section className=" bg-background">
+    <section className="py-16 bg-background">
       <div className="text-center mb-12">
-        <div style={{ background: secondary, padding: 20 }}>
-          <h1
-            className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl"
-            style={{ color: background }}
-          >
-            Qué Ofrecemos
-          </h1>
-          <div
-            className="mx-auto mt-4 h-1 w-24 rounded"
-            style={{ backgroundColor: primary }}
-          ></div>
-        </div>
+        <h2 className="text-4xl font-bold text-secondary mb-4 mt-10">
+          Qué ofrecemos
+        </h2>
       </div>
 
       <div className="max-w-6xl mx-auto">
