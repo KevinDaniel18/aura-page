@@ -26,7 +26,9 @@ export default function Contacto() {
               Puedes comunicarte con nuestro equipo para recibir contención y
               orientación.
             </p>
-            {/* Aquí podrías agregar números o links */}
+            <p className="mt-4 text-lg text-primary font-semibold">
+              Llama al: <a href="tel:+11234567890">+1 123 456 7890</a>
+            </p>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
@@ -38,7 +40,7 @@ export default function Contacto() {
               Habilitamos un espacio de conversación segura para responder tus
               inquietudes en tiempo real.
             </p>
-            {/* Podés reemplazar por un botón funcional más adelante */}
+            {/* Aquí podrías agregar un botón para abrir el chat */}
           </div>
         </div>
       </div>
