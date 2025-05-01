@@ -100,8 +100,8 @@ export default function MisionVision() {
 
         <div className="mt-12 p-6 bg-white rounded-lg shadow-md border-l-4 border-accent">
           <p className="text-center text-lg text-textPrimary italic">
-            "Juntas, construimos un camino de sanación y fortaleza para todas
-            las mujeres que enfrentan la pérdida gestacional"
+            &quot;Juntas, construimos un camino de sanación y fortaleza para
+            todas las mujeres que enfrentan la pérdida gestacional&quot;
           </p>
         </div>
       </div>

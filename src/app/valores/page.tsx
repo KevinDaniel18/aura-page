@@ -75,9 +75,9 @@ export default function Valores() {
         {/* Cita inspiradora */}
         <div className="mt-16 bg-white rounded-lg p-8 shadow-lg text-center">
           <p className="text-xl text-secondary italic font-light mb-4">
-            "Nuestros valores nos guían para crear un entorno seguro donde cada
-            mujer pueda encontrar apoyo, comprensión y fortaleza para superar su
-            pérdida."
+            &quot;Nuestros valores nos guían para crear un entorno seguro donde
+            cada mujer pueda encontrar apoyo, comprensión y fortaleza para
+            superar su pérdida.&quot;
           </p>
           <div className="w-16 h-1 bg-primary mx-auto"></div>
         </div>

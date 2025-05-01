@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Heart, Users, Brain, Shield, ArrowRight } from "lucide-react";
-import { background, primary, secondary } from "../../../constants/colors";
+import { secondary } from "../../../constants/colors";
 
 export default function QueOfrecemos() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);

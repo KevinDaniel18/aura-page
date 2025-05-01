@@ -5,7 +5,6 @@ import {
   BookOpen,
   CheckCircle,
 } from "lucide-react";
-import { background, primary, secondary } from "../../../constants/colors";
 
 export default function Objetivos() {
   return (
@@ -90,9 +89,9 @@ export default function Objetivos() {
 
         <div className="mt-12 bg-accent bg-opacity-10 rounded-lg p-6 border-l-4 border-primary">
           <p className="text-textPrimary italic">
-            "Creemos firmemente que cada mujer merece un apoyo adecuado durante
-            el proceso de duelo gestacional, respetando su individualidad y
-            acompañándola en su camino hacia la sanación."
+            &quot;Creemos firmemente que cada mujer merece un apoyo adecuado
+            durante el proceso de duelo gestacional, respetando su
+            individualidad y acompañándola en su camino hacia la sanación.&quot;
           </p>
         </div>
       </div>
