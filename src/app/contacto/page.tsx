@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, MessageSquareText } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function Contacto() {
   return (
