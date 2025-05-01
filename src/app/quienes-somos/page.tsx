@@ -77,48 +77,6 @@ export default function QuienesSomos() {
             </div>
           </div>
         </div>
-
-        {/* Sección adicional con valores */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-primary">
-            <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
-              <Heart className="h-8 w-8 text-primary" />
-            </div>
-            <h4 className="text-xl font-semibold text-secondary text-center mb-3">
-              Empatía
-            </h4>
-            <p className="text-center text-textSecondary">
-              Nos acercamos a cada mujer con sensibilidad y comprensión,
-              reconociendo la singularidad de su experiencia.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-primary">
-            <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
-              <Shield className="h-8 w-8 text-primary" />
-            </div>
-            <h4 className="text-xl font-semibold text-secondary text-center mb-3">
-              Profesionalismo
-            </h4>
-            <p className="text-center text-textSecondary">
-              Nuestro equipo cuenta con la preparación y experiencia para
-              ofrecer un acompañamiento psicológico de calidad.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-primary">
-            <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
-              <Star className="h-8 w-8 text-primary" />
-            </div>
-            <h4 className="text-xl font-semibold text-secondary text-center mb-3">
-              Compromiso
-            </h4>
-            <p className="text-center text-textSecondary">
-              Nos dedicamos plenamente al bienestar emocional y la recuperación
-              integral de cada mujer que acompañamos.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
