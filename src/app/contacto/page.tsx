@@ -31,7 +31,7 @@ export default function Contacto() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          {/* <div className="bg-white rounded-lg shadow-lg p-6">
             <MessageSquareText className="w-12 h-12 mx-auto text-primary mb-4" />
             <h3 className="text-xl font-semibold text-secondary mb-2">
               Chat directo
@@ -40,8 +40,8 @@ export default function Contacto() {
               Habilitamos un espacio de conversación segura para responder tus
               inquietudes en tiempo real.
             </p>
-            {/* Aquí podrías agregar un botón para abrir el chat */}
-          </div>
+           
+          </div> */}
         </div>
       </div>
     </section>
